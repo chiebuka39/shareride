@@ -1,0 +1,43 @@
+.benefit-1{
+    background-color: #F6F6F6;
+    grid-column: 1 /-1;
+    
+    display: grid;
+    padding: 15rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        h1{
+            font-size: 3rem;
+            width: 50rem;
+        }
+
+        p{
+            margin-top: 0;
+            font-size: 1.4rem;
+            width: 50rem;
+        }
+
+        img{
+            margin-top: 1rem;
+             width: 15rem;
+        }
+    }
+
+    &__img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            width: 40rem;
+        }
+    }
+
+    
+}

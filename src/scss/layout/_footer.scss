@@ -1,0 +1,10 @@
+.footer{
+    grid-column: 1 / -1;
+    height: 10vh;
+    background-color: rgb(75, 74, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
