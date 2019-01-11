@@ -4,7 +4,7 @@
     
     display: grid;
     padding: 15rem 0;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
 
     &__content{
         display: flex;
@@ -14,13 +14,13 @@
 
         h1{
             font-size: 3rem;
-            width: 50rem;
+            max-width: 50rem;
         }
 
         p{
             margin-top: 0;
             font-size: 1.4rem;
-            width: 50rem;
+            max-width: 50rem;
         }
 
         img{
@@ -35,9 +35,34 @@
         justify-content: center;
 
         img{
-            width: 40rem;
+            max-width: 40rem;
         }
     }
 
     
+}
+
+@include media( '<=medium' ) {
+    .benefit-1{
+        &__content{
+            align-items: center;
+            text-align: center;
+
+            h1{
+                font-size: 2.5rem;
+                width: 30rem;
+            }
+            p{
+                width: 30rem;
+            }
+        }
+
+        &__img{
+            
+    
+            img{
+                max-width: 30rem;
+            }
+        }
+    }
 }
