@@ -21,3 +21,10 @@
     font-size: 1.5rem;
     font-weight: 300;
 }
+
+@include media( '<=medium' ) {
+    .heading-1{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+}
