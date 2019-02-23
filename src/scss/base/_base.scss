@@ -1,4 +1,4 @@
-$font-primary: 'Lato', sans-serif;
+$font-primary: 'Oswald', sans-serif;
 $background: #f5f6fa;
 $text: #9c9c9c;
 $input-bg-color: #fff;
@@ -18,11 +18,7 @@ html {
 }
 
 
-.container {
-	display: grid;
-	grid-template-rows: 15vh min-content repeat(6, min-content);
-	grid-template-columns: 1fr[start] repeat(8,minmax(min-content, 14rem))[end] 1fr;
-}
+
 
 body{
 	font-family: $font-primary;
