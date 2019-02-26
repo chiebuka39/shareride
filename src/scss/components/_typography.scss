@@ -24,6 +24,13 @@
     margin: 0;
     padding: 0;
 }
+.paragraph-1{
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 @include media( '<=700px' ) {
     .heading-1{
@@ -33,5 +40,13 @@
 
     .paragraph{
         font-size: 1.5rem;
+    }
+
+    .paragraph-1{
+        font-size: 1.5rem;
+        font-weight: 300;
+        font-family: 'lato', sans-serif;
+        margin: 0;
+        padding: 0;
     }
 }
