@@ -68,7 +68,7 @@ header {
     header{
         .header-content{
             h2{
-                width: 40rem;
+                width: 35rem;
                 margin: 0 auto;
             }
             p{
@@ -80,7 +80,7 @@ header {
         .signup{
             display: flex;
             flex-direction: column;
-            a{
+            button{
                 margin-top: 2rem;
                 text-align: center;
             }
